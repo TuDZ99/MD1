@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<button id="namsinh" onclick="tinhSoTuoi()">Tính số tuổi</button>
+<h id="ketqua"></h>
+<script>
+    function tinhSoTuoi(){
+        let namsinh = document.getElementById('namsinh').value;
+        console.log('tinhSoTuoi===', namsinh)
+        switch (namsinh){
+            case 0: 'Canh'
+            case 1:'Tan'
+            case 2:'Nham'
+            case 3:'Quy'
+            case 4:'Giap'
+            case 5:'At'
+            case 6:'Binh'
+            case 7:'Dinh'
+            case 8:'Mau'
+            case 9:'ky'
+                document.getElementById('ketqua').innerText= 'namsinh' + namsinh + ''
+                let congap =document.getElementById('congiap').value;
+                console.log('tinhSoTuoi===', congiap)
+                switch (congap) {
+                    case 0: 'Than'
+                    case 1: 'Dau'
+                    case 2: 'Tuat'
+                    case 3: 'Hoi'
+                    case 4: 'Ti'
+                    case 5: 'Suu'
+                    case 6: 'Dan'
+                    case 7: 'Mao'
+                    case 8: 'Thin'
+                    case 9: 'Ty'
+                    case 10: 'Ngo'
+                    case 11: 'Mui'
+
+                }
+        }
+    }
+</script>
+</body>
+</html>
